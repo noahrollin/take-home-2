@@ -1,0 +1,44 @@
+.container-fluid {
+    background-color: yellow;
+}
+
+header {
+    background-color: blue;
+}
+nav {
+    background-color: green;
+}
+
+section {
+    background-color: red;
+}
+
+aside {
+    background-color: aqua;
+}
+
+.promo {
+    background-color: brown;
+    border: thin solid #000;
+}
+
+footer {
+    background-color: black;
+}
+
+header, .promo {
+    height: 150px;
+}
+
+section, aside {
+    height: 200px;
+}
+
+nav, footer {
+    height: 50px;
+}
+
+header, nav, section, aside, .promo, footer {
+    color: white;
+    border: thin solid #000;
+}
